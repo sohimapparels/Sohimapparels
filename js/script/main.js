@@ -4159,11 +4159,6 @@
 		
 
 
-		jsCloneNavs.forEach(nav => {
-			var navCloned = nav.cloneNode(true);
-			navCloned.setAttribute('class', 'site-nav-wrap');
-			siteMobileMenuBody.appendChild(navCloned);
-		});
 
 		setTimeout(function(){
 
